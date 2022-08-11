@@ -8,7 +8,7 @@ public class StringListImpl implements StringList {
 
     private int capacity;
 
-    private String[] arr;
+    private final String[] arr;
 
     public StringListImpl() {
         arr = new String[initialLength];
